@@ -74,6 +74,8 @@ mas "Telegram", id: 747648890
 mas "Yoink", id: 457622435
 
 # VS Code extensions
+vscode "equinusocio.vsc-material-theme"
+vscode "equinusocio.vsc-material-theme-icons"
 vscode "editorconfig.editorconfig"
 vscode "ikbengeenrobot.ansible-variable-lookup"
 vscode "janisdd.vscode-edit-csv"
