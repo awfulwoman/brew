@@ -1933,6 +1933,50 @@
             }
           }
         }
+      },
+      "ansible-lint": {
+        "version": "24.7.0_1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_sonoma": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:79b0c4f36420d036075e35a24e913aea9b25c088fdd1c736046c776c056282f2",
+              "sha256": "79b0c4f36420d036075e35a24e913aea9b25c088fdd1c736046c776c056282f2"
+            },
+            "arm64_ventura": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:500f9d6cc6833ec5145b1f542261c0fae9b61d8ecd9a4998b969fd0326f5a5ec",
+              "sha256": "500f9d6cc6833ec5145b1f542261c0fae9b61d8ecd9a4998b969fd0326f5a5ec"
+            },
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:6d05184c7219a00faaa31f363dfbd99f05639b53926dfc0bde84a01654cb3aec",
+              "sha256": "6d05184c7219a00faaa31f363dfbd99f05639b53926dfc0bde84a01654cb3aec"
+            },
+            "sonoma": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:e8e0eeead84c9aea2250af856d69b90e52a2e58e5bff12e2dfb2d15ce55767d3",
+              "sha256": "e8e0eeead84c9aea2250af856d69b90e52a2e58e5bff12e2dfb2d15ce55767d3"
+            },
+            "ventura": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:60302e2f9df6f7573d7c15a364a480bfa00c05468f5dbead072fd061033349e9",
+              "sha256": "60302e2f9df6f7573d7c15a364a480bfa00c05468f5dbead072fd061033349e9"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:61c8d1bdd3063f70995d12dbfdaa2c392c86e23c9236963e2aff36376f5bd3bb",
+              "sha256": "61c8d1bdd3063f70995d12dbfdaa2c392c86e23c9236963e2aff36376f5bd3bb"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:6289b7ceae24886f479f6e09f500c9093d27e7f9582d69e2ab58e0cdf9e26c03",
+              "sha256": "6289b7ceae24886f479f6e09f500c9093d27e7f9582d69e2ab58e0cdf9e26c03"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -2096,6 +2140,42 @@
         "version": "6.9.3447.41",
         "options": {
           "full_name": "vivaldi"
+        }
+      },
+      "grandperspective": {
+        "version": "3.4.2",
+        "options": {
+          "full_name": "grandperspective"
+        }
+      },
+      "jellyfin-media-player": {
+        "version": "1.11.1",
+        "options": {
+          "full_name": "jellyfin-media-player"
+        }
+      },
+      "lulu": {
+        "version": "2.6.3",
+        "options": {
+          "full_name": "lulu"
+        }
+      },
+      "lunar": {
+        "version": "6.8.1",
+        "options": {
+          "full_name": "lunar"
+        }
+      },
+      "screenmemory": {
+        "version": "1.35.0",
+        "options": {
+          "full_name": "screenmemory"
+        }
+      },
+      "vlc": {
+        "version": "3.0.21",
+        "options": {
+          "full_name": "vlc"
         }
       }
     },

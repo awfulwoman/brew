@@ -4,7 +4,8 @@ tap "hashicorp/tap"
 tap "homebrew/bundle"
 
 # CLI apps
-brew "ansible"                  # Ansible CLI
+brew "ansible"     
+brew "ansible-lint"             # Ansible CLI
 brew "argocd"                   #     
 brew "cairo"                    # 
 brew "coreutils"                # 
@@ -51,11 +52,13 @@ cask "docker"
 cask "firefox"
 cask "font-fira-mono-nerd-font"
 cask "google-chrome"
+cask "grandperspective"
 cask "handbrake"
 cask "home-assistant"
 cask "imageoptim"
 cask "iterm2"
 cask "jellyfin-media-player"
+cask "lulu"
 cask "lunar"
 cask "mullvadvpn"
 cask "multipass"
