@@ -3,11 +3,11 @@
 Brewfiles for my MacOS workstations.
 
 ```
-# Install Brew
+# Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ```
-# Install everything else via Brew Bundle
+# Install all formulas, casks, and App Store apps via Brew Bundle
 brew bundle --file <brewfilelocation>
 ```
