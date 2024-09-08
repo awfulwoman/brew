@@ -1,14 +1,23 @@
-# Brewfile
+# Brew
 
-Brewfiles for my MacOS workstations.
+Install everything via Brew.
 
-## Install Homebrew
+## Installation
+
+Ensure xcode is installed.
+
+```
+xcode-select --install
+```
+
+Ensure Homebrew is installed.
+
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## Install all formulas, casks, and App Store apps via Brew Bundle
+Finally, use Brew Bundle to install all formulas, casks, VScode extensions, and App Store purchases.
 
 ```
-brew bundle --file <brewfilelocation>
+brew bundle --file ./Brewfile
 ```
