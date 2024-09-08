@@ -39,31 +39,37 @@ brew "tree"                     #
 brew "unbound"                  # 
 brew "watch"                    # Run commands at intervals
 brew "wget"                     # 
-brew "yt-dlp"                   # 
 brew "yq"                       # 
+brew "yt-dlp"                   # 
 brew "zmap"                     # 
 
 # GUI Casks
-cask "bitwarden"
 cask "balenaetcher"
-cask "tailscale"
+cask "bitwarden"
 cask "calibre"
 cask "docker"
 cask "firefox"
 cask "font-fira-mono-nerd-font"
 cask "google-chrome"
-cask "vivaldi"
 cask "handbrake"
 cask "home-assistant"
 cask "imageoptim"
 cask "iterm2"
+cask "jellyfin-media-player"
+cask "lunar"
 cask "mullvadvpn"
 cask "multipass"
 cask "raspberry-pi-imager"
+cask "raspberry-pi-imager"
 cask "remarkable"
+cask "screenmemory"
 cask "slack"
+cask "tailscale"
 cask "utm"
 cask "visual-studio-code"
+cask "vivaldi"
+cask "vlc"
+
 
 # App Store purchases
 mas "Amphetamine", id: 937984704
@@ -74,9 +80,9 @@ mas "Telegram", id: 747648890
 mas "Yoink", id: 457622435
 
 # VS Code extensions
-vscode "equinusocio.vsc-material-theme"
-vscode "equinusocio.vsc-material-theme-icons"
 vscode "editorconfig.editorconfig"
+vscode "equinusocio.vsc-material-theme-icons"
+vscode "equinusocio.vsc-material-theme"
 vscode "ikbengeenrobot.ansible-variable-lookup"
 vscode "janisdd.vscode-edit-csv"
 vscode "mechatroner.rainbow-csv"
