@@ -2163,7 +2163,9 @@
       "ms-python.vscode-pylance": null,
       "redhat.ansible": null,
       "redhat.vscode-yaml": null,
-      "wholroyd.jinja": null
+      "wholroyd.jinja": null,
+      "equinusocio.vsc-material-theme": null,
+      "equinusocio.vsc-material-theme-icons": null
     }
   },
   "system": {
