@@ -37,7 +37,7 @@ brew "terraform"                #
 brew "tmux"                     # 
 brew "tree"                     # 
 brew "unbound"                  # 
-brew "watch"                    # 
+brew "watch"                    # Run commands at intervals
 brew "wget"                     # 
 brew "yt-dlp"                   # 
 brew "yq"                       # 
@@ -61,19 +61,16 @@ cask "mullvadvpn"
 cask "multipass"
 cask "raspberry-pi-imager"
 cask "remarkable"
-cask "send-to-kindle"
 cask "slack"
 cask "utm"
 cask "visual-studio-code"
 
 # App Store purchases
-mas "1Password 7", id: 1333542190
 mas "Amphetamine", id: 937984704
 mas "EasyMQTT", id: 1523099606
 mas "iA Writer", id: 775737590
 mas "Pixelmator Pro", id: 1289583905
 mas "Telegram", id: 747648890
-mas "Vinegar", id: 1591303229
 mas "Yoink", id: 457622435
 
 # VS Code extensions
