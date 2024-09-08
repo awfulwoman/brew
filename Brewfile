@@ -4,51 +4,51 @@ tap "hashicorp/tap"
 tap "homebrew/bundle"
 
 # CLI apps
-brew "ansible"     
-brew "ansible-lint"             # Ansible CLI
-brew "argocd"                   #     
-brew "cairo"                    # 
-brew "coreutils"                # 
-brew "direnv"
-brew "espeak"                   # 
-brew "ffmpeg"                   # 
-brew "fluxcd/tap/flux"          # 
-brew "fortune"                  # 
-brew "fping"                    # 
-brew "get_iplayer"              # Download iPlayer programmes
-brew "git"                      # It's git, innit
-brew "go"                       # Go language
-brew "helm"                     # 
-brew "jq"                       # 
-brew "kubernetes-cli"           # 
-brew "kustomize"                # 
-brew "lolcat"                   # 
-brew "macvim"                   # 
-brew "mas"                      # 
-brew "mutt"                     # 
-brew "neofetch"                 # 
-brew "nmap"                     # 
-brew "nvm"                      # 
-brew "python@3.12"              # 
-brew "qrencode"                 #
-brew "rename"                   #
-brew "rsync"                    # 
-brew "telnet"                   # 
-brew "terraform"                # 
-brew "tmux"                     # 
-brew "tree"                     # 
-brew "unbound"                  # 
-brew "watch"                    # Run commands at intervals
-brew "wget"                     # 
-brew "yq"                       # 
-brew "yt-dlp"                   # 
-brew "zmap"                     # 
+brew "ansible"                          # Ansible CLI
+brew "ansible-lint"                     # Ansible linting
+brew "argocd"                           #     
+brew "cairo"                            # 
+brew "coreutils"                        # 
+brew "docker"                           # Running containers
+brew "direnv"                           # dir-level env vars
+brew "espeak"                           # 
+brew "ffmpeg"                           # 
+brew "fluxcd/tap/flux"                  # 
+brew "fortune"                          # 
+brew "fping"                            # 
+brew "get_iplayer"                      # Download iPlayer programmes
+brew "git"                              # It's git, innit
+brew "go"                               # Go language
+brew "helm"                             # helm charts
+brew "jq"                               # json parsing
+brew "kubernetes-cli"                   # 
+brew "kustomize"                        # 
+brew "lolcat"                           # lolcats
+brew "macvim"                           # 
+brew "mas"                              # 
+brew "mutt"                             # 
+brew "neofetch"                         # 
+brew "nmap"                             # 
+brew "nvm"                              # 
+brew "python@3.12"                      # 
+brew "qrencode"                         #
+brew "rename"                           #
+brew "rsync"                            # 
+brew "telnet"                           # 
+brew "terraform"                        # 
+brew "tmux"                             # 
+brew "tree"                             # 
+brew "unbound"                          # 
+brew "watch"                            # Run commands at intervals
+brew "wget"                             # 
+brew "yq"                               # 
+brew "yt-dlp"                           # download youtube stuff
+brew "zmap"                             # network mapping
 
 # GUI Casks
-cask "balenaetcher"
-cask "bitwarden"
-cask "calibre"
-cask "docker"
+cask "balenaetcher"                     # For writing images
+cask "bitwarden"                        # Password manager
+cask "calibre"                          # Ebook manager
 cask "firefox"
 cask "font-fira-mono-nerd-font"
 cask "google-chrome"

@@ -1977,6 +1977,50 @@
             }
           }
         }
+      },
+      "docker": {
+        "version": "27.2.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:8a7a2e963a9d3192a6666f52c0cd15b1eee481ade00c7e41ec129eae4b9b6424",
+              "sha256": "8a7a2e963a9d3192a6666f52c0cd15b1eee481ade00c7e41ec129eae4b9b6424"
+            },
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:8a7a2e963a9d3192a6666f52c0cd15b1eee481ade00c7e41ec129eae4b9b6424",
+              "sha256": "8a7a2e963a9d3192a6666f52c0cd15b1eee481ade00c7e41ec129eae4b9b6424"
+            },
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:8a7a2e963a9d3192a6666f52c0cd15b1eee481ade00c7e41ec129eae4b9b6424",
+              "sha256": "8a7a2e963a9d3192a6666f52c0cd15b1eee481ade00c7e41ec129eae4b9b6424"
+            },
+            "sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:d5725b5f465e9e7c2d11ba90f6cc226a854d54d0a5a1e6826b9aaacb1ae7a407",
+              "sha256": "d5725b5f465e9e7c2d11ba90f6cc226a854d54d0a5a1e6826b9aaacb1ae7a407"
+            },
+            "ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:d5725b5f465e9e7c2d11ba90f6cc226a854d54d0a5a1e6826b9aaacb1ae7a407",
+              "sha256": "d5725b5f465e9e7c2d11ba90f6cc226a854d54d0a5a1e6826b9aaacb1ae7a407"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:d5725b5f465e9e7c2d11ba90f6cc226a854d54d0a5a1e6826b9aaacb1ae7a407",
+              "sha256": "d5725b5f465e9e7c2d11ba90f6cc226a854d54d0a5a1e6826b9aaacb1ae7a407"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:cbfcb9d52d3e2d115417a61bd9f8c0ee62ae264fdb0eeda97d27512c46bf8553",
+              "sha256": "cbfcb9d52d3e2d115417a61bd9f8c0ee62ae264fdb0eeda97d27512c46bf8553"
+            }
+          }
+        }
       }
     },
     "cask": {
