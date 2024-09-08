@@ -4,6 +4,14 @@ Install everything via Brew.
 
 ## Installation
 
+### Quick version
+
+```
+./install.sh
+```
+
+### Manual version
+
 Ensure xcode is installed.
 
 ```
