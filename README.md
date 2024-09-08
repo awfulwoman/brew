@@ -6,6 +6,8 @@ Install everything via Brew.
 
 ### Quick version
 
+This will check for, and install, Xcode CLI tools and Homebrew before executing the Brewfile.
+
 ```
 ./install.sh
 ```
